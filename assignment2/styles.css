@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(159, 150, 150);
+    font-family: Calibri;
+}
+
+div {
+    width: 800px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    background-color:rgb(163, 207, 226);
+    height: 100px;
+    position: sticky;
+    top: 0;
+}
+
+.header h1 {
+    text-align: center;
+    margin: auto;
+}
+
+.nav-bar {
+    background-color:rgb(70, 81, 107);
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    display: grid;
+    position: sticky;
+    top: 100px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-bar a:hover {
+    background-color: rgb(43, 47, 57);
+    transition: all 0.5s;
+
+}
+
+.active a { 
+    background-color: white; 
+}
+
+a.home-bar {
+    background-color: white; 
+    color: black;
+}
+a.home-bar:hover {
+    background-color: rgb(211, 211, 211); 
+}
+
+.outer-box {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.content {
+    width: 600px;
+}
+
+.flexbox {
+    display: flex;
+    width: 600px;
+}
+
+.flexbox img {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+    margin-right: 30px;
+}
