@@ -1,0 +1,32 @@
+body {
+    background-color: gainsboro;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#box1 {
+    margin: auto;
+    background-color: rgb(102, 35, 30);
+    height: 630px;
+    width: 600px;
+}
+
+#box2 {
+    margin: auto;
+    background-color: white;
+    border: 10px solid white;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+}
+
+.tile:hover {
+    border-color: white !important;
+    border-width: 2px !important;
+    background-color: white !important;
+}
