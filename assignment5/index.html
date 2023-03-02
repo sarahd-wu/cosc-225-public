@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interactive Dots</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+    <script src="draw.js" defer></script>
+  </head>
+  <body>
+    <div id=root>
+        <h1>Drawing Canvas</h1>
+
+        <div id="one">
+            <svg id="dot-box" version="2.0" xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+	        <rect width="100%" height="100%" fill="white">
+            </svg>
+        </div>
+
+        <div id="two">
+
+            <button onclick="red()" class="color red"></button>
+            <button onclick="orange()" class="color orange"></button>
+            <button onclick="yellow()" class="color yellow"></button>
+            <button onclick="green()" class="color green"></button>
+            <button onclick="blue()" class="color blue"></button>
+            <button onclick="purple()" class="color purple"></button>
+            <button onclick="black()" class="color black"></button>
+
+            <button onclick="line()">Line</button>
+            <button onclick="dot()">Dot</button>
+
+        </div>
+
+    </div>
+  </body>
+</html>

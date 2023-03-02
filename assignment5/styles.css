@@ -1,0 +1,74 @@
+svg {
+    position: relative;
+}
+
+body {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+h1,h2,body {
+    fill: white;
+    font-family: 'Calibri';
+}
+
+/* COLORS */
+
+.red {
+    fill: red !important; 
+    background-color: red;
+    stroke: red !important; 
+}
+.orange {
+    fill: orange !important; 
+    background-color: orange;
+    stroke: orange !important; 
+}
+.yellow {
+    fill: yellow !important; 
+    background-color: yellow;
+    stroke: yellow !important; 
+}
+.green {
+    fill: green !important;
+    background-color: green;
+    stroke: green !important;  
+}
+.blue {
+    fill: blue !important; 
+    background-color: blue;
+    stroke: blue !important; 
+}
+.purple {
+    fill: purple !important; 
+    background-color: purple;
+    stroke: purple !important; 
+}
+
+.black {
+    fill: black !important; 
+    background-color: black;
+    stroke: black !important; 
+}
+
+button.color {
+    height: 30px;
+    width: 30px;
+}
+
+button.color:hover {
+    fill: lightgray;
+    background-color: lightgrey;
+}
+
+/* TYPES */
+
+.dot {
+    size: 10px;
+    fill: black;
+}
+
+.line {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 5;
+}
